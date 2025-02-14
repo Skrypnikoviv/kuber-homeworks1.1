@@ -102,6 +102,7 @@
    ```bash
    kubectl -n kube-system describe secret $(kubectl -n kube-system get secret | grep default-token | awk '{print $1}')
    ```
+![dz1](https://github.com/user-attachments/assets/2b522b02-f267-4464-b5ca-236cca9cdf8c)
 
 ---
 
